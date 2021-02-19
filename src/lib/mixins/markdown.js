@@ -3,7 +3,7 @@ import {
     loadScript
 } from '../core/extra-function.js'
 var markdown_config = {
-    html: true,        // Enable HTML tags in source
+    html: false,        // Enable HTML tags in source
     xhtmlOut: true,        // Use '/' to close single tags (<br />).
     breaks: true,        // Convert '\n' in paragraphs into <br>
     langPrefix: 'lang-',  // CSS language prefix for fenced blocks. Can be
